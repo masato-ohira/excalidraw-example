@@ -18,7 +18,7 @@ export const IndexPage = () => {
             height: '100vh',
           }}
         >
-          <Excalidraw />
+          <Excalidraw isCollaborating langCode='ja-JP' />
         </div>
       </div>
     </>
