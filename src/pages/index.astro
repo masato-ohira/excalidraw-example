@@ -1,0 +1,10 @@
+---
+import { IndexPage } from '@/components/views/IndexPage'
+import Layout from '@/layouts/Layout.astro'
+---
+
+<Layout title='サイトメンテナンスのお知らせ'>
+  <main>
+    <IndexPage client:only />
+  </main>
+</Layout>

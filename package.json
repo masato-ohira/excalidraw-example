@@ -1,0 +1,52 @@
+{
+  "name": "astro-single-page",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "typewind generate",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "ssg": "astro build",
+    "preview": "astro preview",
+    "fetch": "ts-node npm-scripts/fetch/index.ts",
+    "icons": "ts-node npm-scripts/icons/index.ts",
+    "test": "playwright test",
+    "git": "git add . && git commit -a -m $M"
+  },
+  "dependencies": {
+    "@astrojs/react": "^2.2.1",
+    "@excalidraw/excalidraw": "^0.15.2",
+    "astro": "^2.7.4",
+    "axios": "^1.4.0",
+    "clsx": "^2.0.0",
+    "lodash-es": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-no-ssr": "^1.1.0",
+    "tailwind-merge": "^1.13.2",
+    "tailwindcss": "^3.3.2",
+    "typewind": "^0.1.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.36.2",
+    "@types/fs-extra": "^11.0.1",
+    "@types/lodash": "^4.14.196",
+    "@types/lodash-es": "^4.17.7",
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/tailwindcss": "^3.1.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "autoprefixer": "^10.4.14",
+    "cheerio": "^1.0.0-rc.12",
+    "eslint": "^8.38.0",
+    "eslint-config-next": "^13.4.8",
+    "fs-extra": "^11.1.1",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.24",
+    "sass": "^1.64.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
